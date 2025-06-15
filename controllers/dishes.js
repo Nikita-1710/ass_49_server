@@ -27,7 +27,7 @@ const postDishes = (req, res) => {
 
     // validation for existing id
     for (const dish of DISHES) {
-        if (id === dish.id) {
+        if (id == dish.id) {
             return res.status(400).json({
                 success: false,
                 message: "ID already exists."
