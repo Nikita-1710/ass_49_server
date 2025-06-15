@@ -123,7 +123,7 @@ const getDishesById = (req, res) => {
     }
 }
 
-const putDishessById = (req, res) => {
+const putDishesById = (req, res) => {
     const { id } = req.params
     const { name, category } = req.body
 
@@ -169,4 +169,4 @@ const putDishessById = (req, res) => {
     })
 }
 
-export { getDishes, postDishes, deleteDishessById, getDishesById, putDishessById }
+export { getDishes, postDishes, deleteDishessById, getDishesById, putDishesById }
